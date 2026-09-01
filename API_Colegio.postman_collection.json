@@ -1,0 +1,113 @@
+{
+  "info": {
+    "_postman_id": "e73d9cef-3532-4258-8a98-f516ed79bd5a",
+    "name": "API_Colegio",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "12638673"
+  },
+  "item": [
+    {
+      "name": "http://127.0.0.1:8000/api/actividades/",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"aprendiz\": \"Juan\",\r\n    \"nombre\": \"Taller de Django\",\r\n    \"tipo\": \"Academica\",\r\n    \"descripcion\": \"Desarrollo de una aplicación utilizando Django\",\r\n    \"fecha\": \"2026-09-01\",\r\n    \"estado\": \"Pendiente\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/actividades/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "actividades",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:8000/api/actividades/",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"aprendiz\": \"Juan\",\r\n    \"nombre\": \"Taller de Django\",\r\n    \"tipo\": \"Academica\",\r\n    \"descripcion\": \"Desarrollo de una aplicación utilizando Django\",\r\n    \"fecha\": \"2026-09-01\",\r\n    \"estado\": \"Pendiente\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/actividades/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "actividades",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:8000/api/actividades/",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"aprendiz\": \"Juan\",\r\n    \"nombre\": \"Taller de Django\",\r\n    \"tipo\": \"Academica\",\r\n    \"descripcion\": \"Desarrollo de una aplicación utilizando Django\",\r\n    \"fecha\": \"2026-09-01\",\r\n    \"estado\": \"Pendiente\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/actividades/1/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "actividades",
+            "1",
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
