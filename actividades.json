@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "aprendiz": "Juan",
+        "nombre": "Proyecto de API REST",
+        "tipo": "Academica",
+        "descripcion": "Desarrollo de un servicio web con Django REST Framework",
+        "fecha": "2026-09-01",
+        "estado": "Pendiente"
+    },
+    {
+        "id": 2,
+        "aprendiz": "Pedro",
+        "nombre": "Actividad administrativa",
+        "tipo": "Administrativa",
+        "descripcion": "Organización de documentos",
+        "fecha": "2026-09-01",
+        "estado": "Pendiente"
+    }
+]
