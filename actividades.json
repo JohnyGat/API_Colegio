@@ -7,5 +7,14 @@
         "descripcion": "Organización de documentos",
         "fecha": "2026-09-01",
         "estado": "Pendiente"
+    },
+    {
+        "id": 3,
+        "aprendiz": "Pedro",
+        "nombre": "Nueva actividad",
+        "tipo": "Administrativa",
+        "descripcion": "Revisión de documentos",
+        "fecha": "2026-09-01",
+        "estado": "Pendiente"
     }
 ]
